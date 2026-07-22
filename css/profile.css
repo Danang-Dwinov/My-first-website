@@ -1,0 +1,97 @@
+.profile-page {
+  display:none;
+  margin:0px;
+  padding:0px;
+}
+.container-profile-main {
+  border:1px solid;
+  margin:25px;
+  margin-top:50px;
+}
+.container-img-profile {
+  text-align: center;
+  border: 1px solid;
+  width: 100%;
+}
+#img-profile {
+  width: 130px;
+  height: 120px;
+}
+    
+.container-username-profile {
+  border: 1px solid;
+}
+.container-date-of-birth-profile {
+  border: 1px solid;
+}
+.container-email-profile {
+  border: 1px solid;
+}
+.container-no-phone-profile {
+  border: 1px solid;
+}
+
+#label-username-profile{
+  border: 1px solid;
+}
+#text-username-profile{
+  display:inline;
+  border: 1px solid;
+}
+#label-date-of-birth-profile{
+  border: 1px solid;
+}
+#text-date-of-birth-profile{
+  display:inline;
+  border: 1px solid;
+}
+#label-email-profile{
+  border: 1px solid;
+}
+#text-email-profile{
+  display:inline;
+  border: 1px solid;
+}
+#label-no-phone-profile{
+  border: 1px solid;
+}
+#text-no-phone-profile{
+  display:inline;
+  border: 1px solid;
+}
+
+.profile-footer {
+  background-color: red;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left:0px;
+  padding: 0px;
+  margin:0px;
+}
+.profile-footer-list {
+  border: 1px solid;
+  position:relative;
+  display:flex;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  padding-block: 4%;
+}
+.profile-footer-link {
+  border: 1px solid;
+  text-decoration: none;
+  font-size: 18px;
+  width: 50%;
+  color:white;
+}
+#profile-footer-home {
+  display:inline-block;
+  position: absolute;
+  left: 0px;
+}
+#profile-footer-profile {
+  display:inline-block;
+  position: absolute;
+  right:0px;
+}
