@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GNews.com</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Website breaking news.">
+  <meta name="keywords" content="News, news, Breaking News, Breaking">
+  <meta name="robots" content="index, follow">
+
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/home.css">
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/content.css">
+</head>
+<body class="body">
+  <section class="login-page" id="login-page">
+    <header class="login-header">
+      <h2 id="login-title">GNews.com</h2>
+    </header>
+    <div class="container-main" align="center">
+      <div class="main-list-form" id="main-list-form">
+        <a href="#form-login" id="opsi-login" title="form login">Log In</a>
+        <a href="#form-signup" id="opsi-signup" title="form signup">Sign Up</a>
+      </div>
+      <form href="#form-login" id="form-login">
+        <br>
+        <label id="login-email-label" for="email">email :</label>
+        <br>
+        <input type="email" id="login-email-input" name="email" placeholder="darrenjunior44@gmail.com" required title="Input email">
+        <br>
+        <br>
+        <label id="login-password-label" for="password">password :</label>
+        <br>
+        <input type="password" id="login-password-input" name="password" placeholder="example : daRReN123#$_" minlegth="8" title="input password">
+        <br>
+        <div class="login-options">
+          <input type="checkbox" id="login-remember-checkbox">
+          <label for="login-remember-checkbox" id="login-remember-label">Remember me</label>
+          <a href="https://myaccount.google.com/?hl=id" id="login-forgot-password-link">forgot password?</a>
+        </div>
+        <br>
+        <input type="submit" value="Login" id="login-submit-btn">
+      </form>
+      <form href="#form-signup" id="form-signup">
+        <label id="signup-username-label" for="username">username :</label>
+        <br>
+        <input type="text" id="signup-username-input" name="username" placeholder="Darren Junior" required title="Input username">
+        <br>
+        <br>
+        <label id="signup-date-label" for="date">Date of birth :</label>
+        <br>
+        <input type="date" id="signup-date-input" name="date" required title="date of birth" placeholder="01/01/2000">
+        <br>
+        <br>
+        <label id="signup-no-phone-label" for="no-phone">no.phone :</label>
+        <br>
+        <input type="tel" id="signup-no-phone-input" name="no-phone" required title="Input No-phone" placeholder="08876543210">
+        <br>
+        <br>
+        <label id="signup-email-label" for="email">email :</label>
+        <br>
+        <input type="email" id="signup-email-input" name="email" placeholder="darrenjunior44@gmail.com" required title="Input email">
+        <br>
+        <br>
+        <label id="signup-password-label" for="password">password :</label>
+        <br>
+        <input type="password" id="signup-password-input" name="password" placeholder="example : daRReN123#$_" minlegth="8" required title="input password">
+        <br>
+        <div class="signup-first-options">
+          <input type="checkbox" id="signup-remember-checkbox">
+          <label for="signup-remember-checkbox" id="signup-remember-label">Remember me</label>
+          <a href="https://myaccount.google.com/?hl=id" id="signup-forgot-password-link">forgot password?</a>
+        </div>
+        <div class="signup-second-options">
+          <input type="checkbox" id="signup-agree-checkbox">
+          <label for="signup-agree-checkbox" id="signup-agree-label">I agree to the Terms & Conditions and Privacy Policy</label>
+        </div>
+        <br>
+        <input type="submit" value="SignUp" id="signup-submit-btn">
+      </form>
+    </div>
+  </section>
+  <section class="home-page" id="home-page">
+    <header class="home-header">
+      <h2 id="home-title">TNews.com</h2>
+      <div class="home-search">
+        <form action="https://www.google.com/search" method="GET">
+          <input type="text" name="q" id="home-search-input" placeholder="Search news...">
+        </form>
+      </div>
+    </header>
+    <nav class="home-nav">
+      <ul class="home-nav-list">
+        <li><a href="#page-latest" class="home-nav-link" id="nav-latest">Latest</a></li>
+        <li><a href="#page-headline" class="home-nav-link" id="nav-headline">Headline</a></li>
+        <li><a href="#page-populer" class="home-nav-link" id="nav-populer">Populer</a></li>
+        <li><a href="#page-economy" class="home-nav-link" id="nav-economy">Economy</a></li>
+        <li><a href="#page-tecnology" class="home-nav-link" id="nav-tecnology">Technology</a></li>
+        <li><a href="#page-market" class="home-nav-link" id="nav-market">Market</a></li>
+      </ul>
+    </nav>
+    <div class="page-latest" id="page-latest">
+      <h2 class="title-nav-home" id="page-latest-title">Latest -></h2>
+      <div class="news-card">
+        <img src="image/image(1).jpeg" class="news-card-image">
+        <div class="news-card-body">
+          <a href="https://www.cnbc.com/2026/07/10/stock-market-and-economy-out-of-sync.html" class="news-card-link">
+            <p class="news-card-text">CNBC-Why the stock market and economy may seem out of sync</p>
+          </a>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="image/image(2).jpeg" class="news-card-image">
+        <div class="news-card-body">
+          <a href="https://www.reuters.com/sports/soccer/mission-creep-fifas-embrace-technology-backfires-controversy-riven-world-cup-2026-07-10/" class="news-card-link">
+            <p class="news-card-text">Routers.-Mission creep: FIFA's embrace of technology backfires in controversy-riven World Cup</p>
+          </a>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="image/image(3).jpeg" class="news-card-image">
+        <div class="news-card-body">
+          <a href="https://www.aljazeera.com/economy/2026/7/10/strait-of-hormuz-shipping-grinds-to-halt-as-us-iran-resume-fighting" class="news-card-link">
+            <p class="news-card-text">ALJAZERAAH.-Strait of Hormuz traffic plunges as US, Iran resume fighting</p>
+          </a>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="image/image(4).jpeg" class="news-card-image">
+        <div class="news-card-body">
+          <a href="https://www.cnn.com/2026/07/10/tech/apple-openai-devices-lawsuit" class="news-card-link">
+            <p class="news-card-text">CNN-Apple accuses OpenAI of using stolen trade secrets to create its upcoming AI gadgets in new lawsuit</p>
+          </a>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="image/image(5).jpeg" class="news-card-image">
+        <div class="news-card-body">
+          <a href="https://www.reuters.com/business/meta-ai-image-detector-fails-identify-some-its-own-cropped-ai-images-reuters-2026-07-10/" class="news-card-link">
+            <p class="news-card-text">Routers-Meta AI image detector fails to identify some of its own cropped AI images, Reuters analysis finds</p>
+          </a>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="image/image(6).jpeg" class="news-card-image">
+        <div class="news-card-body">
+          <a href="https://www.sciencedaily.com/releases/2026/07/260710003526.htm" class="news-card-link">
+            <p class="news-card-text">ScienceDaily-Europe just unveiled a new rival to SpaceX's Starship</p>
+          </a>
+        </div>
+      </div>
+      <div class="news-card">
+        <img src="image/image(7).jpeg" class="news-card-image">
+        <div class="news-card-body">
+          <a href="https://www.nytimes.com/2026/06/25/technology/zai-china-artificial-intelligence-models.html" class="news-card-link">
+            <p class="news-card-text">The New York Times-Chinese A.I. Models Close the Gap With Anthropic and OpenAI</p>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="page-headline" id="page-headline">
+      <h2 class="title-nav-home" id="page-headline-title">Headline -></h2>
+    </div>
+    <div class="page-populer" id="page-populer">
+      <h2 class="title-nav-home" id="page-populer-title">Populer -></h2>
+    </div>
+    <div class="page-economy" id="page-economy">
+      <h2 class="title-nav-home" id="page-economy-title">Economy -></h2>
+    </div>
+    <div class="page-tecnology" id="page-tecnology">
+      <h2 class="title-nav-home" id="page-tecnology-title">Tecnology -></h2>
+    </div>
+    <div class="page-market" id="page-market">
+      <h2 class="title-nav-home" id="page-market-title">Market -></h2>
+    </div>
+    <br>
+    <footer class="home-footer">
+      <div class="home-footer-list" id="home-footer-list">
+        <a href="#" class="profile-footer-link" id="home-footer-home" >Home</a>
+        <a href="#profile-page" class="home-footer-link" id="home-footer-profile">Profile</a>
+      </div>
+    </footer>
+  </section>
+  <section class="profile-page" id="profile-page">
+    <div class="container-profile-main">
+      <div class="container-img-profile">
+        <img src="image_profile.jpg" id="img-profile">
+      </div>
+      <div class="container-data-profile">
+        <div class="container-username-profile">
+          <label for="username-profile" id="label-username-profile">Username :</label>
+          <p id="text-username-profile" name="username-profile"></p>
+        </div>
+        <div class="container-date-of-birth-profile">
+          <label for="date-of-birth-profile">Date of birth :</label>
+          <p id="text-date-of-birth-profile" name="date-of-birth-profile">19/11/2000</p>
+        </div>
+        <div class="container-email-profile">
+          <label for="email-profile">email :</label>
+          <p id="text-email-profile" name="email-profile"></p>
+        </div>
+        <div class="container-no-phone-profile">
+          <label for="no-phone-profile">no-phone :</label>
+          <p id="text-no-phone-profile" name="no-phone-profile">08876543210</p>
+        </div>
+      </div>
+    </div>
+    <footer class="profile-footer">
+      <div class="profile-footer-list" id="profile-footer-list">
+        <a href="#home-page" class="profile-footer-link" id="profile-footer-home">Home</a>
+        <a href="#profile-page" class="profile-footer-link" id="profile-footer-profile">Profile</a>
+      </div>
+    </footer>
+  </section>
+  <script src="js/script.js"></script>
+</body>
+</html>
