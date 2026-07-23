@@ -70,7 +70,7 @@
   margin:0px;
 }
 .profile-footer-list {
-  border: 1px solid;
+  border: 0px solid;
   position:relative;
   display:flex;
   text-align: center;
@@ -79,7 +79,7 @@
   padding-block: 4%;
 }
 .profile-footer-link {
-  border: 1px solid;
+  border: 0px solid;
   text-decoration: none;
   font-size: 18px;
   width: 50%;
