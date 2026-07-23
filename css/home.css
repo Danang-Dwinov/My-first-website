@@ -131,7 +131,7 @@
   margin:0px;
 }
 .home-footer-list {
-  border: 1px solid;
+  border: 0px solid;
   position: relative;
   display:flex;
   text-align: center;
@@ -140,7 +140,7 @@
   padding-block: 4%;
 }
 .home-footer-link {
-  border: 1px solid;
+  border: 0px solid;
   text-decoration: none;
   font-size: 18px;
   width: 50%;
